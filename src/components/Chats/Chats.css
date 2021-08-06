@@ -1,0 +1,53 @@
+/* Chats Page */
+
+.chats-page {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar {
+    background-color: #6200EE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 66px;
+    padding: 0px 40px;
+}
+
+.logo-tab {
+    color: #FFFFFF;
+}
+
+.logout-tab {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.logout-button {
+    padding: 14px 40px;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logout-text {
+    margin-left: 4px;
+}
+
+.logout-button:hover {
+    opacity: 80%;
+    transition: 0.25s;
+}
+
+::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+}
